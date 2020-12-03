@@ -4,7 +4,7 @@
 
     <groupId>dare.springframework</groupId>
     <artifactId>sfp-pet-clinic</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4-SNAPSHOT</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -55,7 +55,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:DarkoStarcevic/sfp-pet-clinic.git</developerConnection>
-      <tag>sfp-pet-clinic-0.0.3</tag>
+      <tag>HEAD</tag>
   </scm>
 
 
