@@ -2,9 +2,11 @@ package dare.springframework.sfppetclinic.services.map;
 
 import dare.springframework.sfppetclinic.model.Owner;
 import dare.springframework.sfppetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService{
 
 

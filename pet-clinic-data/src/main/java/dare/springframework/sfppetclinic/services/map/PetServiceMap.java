@@ -2,9 +2,11 @@ package dare.springframework.sfppetclinic.services.map;
 
 import dare.springframework.sfppetclinic.model.Pet;
 import dare.springframework.sfppetclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet,Long> implements PetService {
 
 
