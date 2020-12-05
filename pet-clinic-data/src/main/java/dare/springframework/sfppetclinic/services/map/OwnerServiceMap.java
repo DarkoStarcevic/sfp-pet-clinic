@@ -1,11 +1,11 @@
 package dare.springframework.sfppetclinic.services.map;
 
 import dare.springframework.sfppetclinic.model.Owner;
-import dare.springframework.sfppetclinic.services.CrudServices;
+import dare.springframework.sfppetclinic.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudServices<Owner, Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService{
 
 
     @Override
@@ -35,8 +35,8 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     }
 
 
-
-
-
-
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
+    }
 }

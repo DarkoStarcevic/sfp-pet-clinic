@@ -1,11 +1,11 @@
 package dare.springframework.sfppetclinic.services.map;
 
 import dare.springframework.sfppetclinic.model.Vet;
-import dare.springframework.sfppetclinic.services.CrudServices;
+import dare.springframework.sfppetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudServices<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
 
     @Override

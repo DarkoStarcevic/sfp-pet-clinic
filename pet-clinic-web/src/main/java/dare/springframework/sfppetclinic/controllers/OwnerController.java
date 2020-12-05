@@ -11,4 +11,6 @@ public class OwnerController {
     public String listOfOwners(){
         return "owners/index";
     }
+
+    
 }
