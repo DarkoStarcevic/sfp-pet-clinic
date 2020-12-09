@@ -1,13 +1,13 @@
 package dare.springframework.sfppetclinic.services.map;
 
 import dare.springframework.sfppetclinic.model.Speciality;
-import dare.springframework.sfppetclinic.services.SpecialitiesService;
+import dare.springframework.sfppetclinic.services.SpecialityService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialitiesService {
+public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialityService {
     @Override
     public Set<Speciality> findAll() {
         return super.findAll();
