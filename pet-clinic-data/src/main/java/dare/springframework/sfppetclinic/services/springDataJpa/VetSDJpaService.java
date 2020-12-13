@@ -49,8 +49,8 @@ public class VetSDJpaService implements VetService {
 
     }
 
-    @Override
+  /*  @Override
     public Vet findBySpeciality(String speciality) {
         return vetRepository.findBySpeciality(speciality);
-    }
+    }*/
 }

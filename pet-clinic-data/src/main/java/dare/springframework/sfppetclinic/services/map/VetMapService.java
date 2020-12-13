@@ -51,8 +51,8 @@ public class VetMapService extends AbstractMapService<Vet, Long> implements VetS
         return super.findById(id);
     }
 
-    @Override
+   /* @Override
     public Vet findBySpeciality(String speciality) {
         return null;
-    }
+    }*/
 }

@@ -1,10 +1,7 @@
 package dare.springframework.sfppetclinic.bootstrap;
 
 import dare.springframework.sfppetclinic.model.*;
-import dare.springframework.sfppetclinic.services.OwnerService;
-import dare.springframework.sfppetclinic.services.PetTypeService;
-import dare.springframework.sfppetclinic.services.SpecialityService;
-import dare.springframework.sfppetclinic.services.VetService;
+import dare.springframework.sfppetclinic.services.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -17,12 +14,15 @@ public class DataLoader implements CommandLineRunner {
     private final VetService vetService;
     private final PetTypeService petTypeService;
     private final SpecialityService specialityService;
+    private final VisitService visitService;
 
-    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialityService specialityService) {
+    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService,
+                      SpecialityService specialityService, VisitService visitService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
         this.petTypeService = petTypeService;
         this.specialityService = specialityService;
+        this.visitService = visitService;
     }
 
     @Override
@@ -75,6 +75,13 @@ public class DataLoader implements CommandLineRunner {
         darkosPet.setName("Dona");
         owner1.getPets().add(darkosPet);
         ownerService.save(owner1);
+
+        Visit dogVisit = new Visit();
+        dogVisit.setPet(darkosPet);
+        dogVisit.setDate(LocalDate.now());
+        dogVisit.setDescription("Vaccination");
+
+        visitService.save(dogVisit);
 
         Owner owner2 = new Owner();
         owner2.setFirstName("Djordje");
