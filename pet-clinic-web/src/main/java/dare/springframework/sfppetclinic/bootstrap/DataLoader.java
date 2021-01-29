@@ -86,7 +86,7 @@ public class DataLoader implements CommandLineRunner {
 
         Owner owner2 = new Owner();
         owner2.setFirstName("Djordje");
-        owner2.setLastName("Starcevic");
+        owner2.setLastName("Starcevic Junior");
         owner2.setAddress("Gandijeva /59");
         owner2.setCity("Belgrade");
         owner2.setTelephone("04385934893465");
