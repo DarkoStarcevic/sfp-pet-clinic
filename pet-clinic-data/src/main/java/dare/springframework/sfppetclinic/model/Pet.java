@@ -14,10 +14,10 @@ import java.util.Set;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
+//@Builder
 public class Pet extends BaseEntity{
 
-    /*@Builder
+    @Builder
     public  Pet(Long id, String name, PetType petType, Owner owner, LocalDate birthDate, Set<Visit>visits){
         super(id);
         this.name = name;
@@ -28,7 +28,7 @@ public class Pet extends BaseEntity{
         if (visits == null || visits.size() > 0){
             this.visits = visits;
         }
-    }*/
+    }
 
     @Column(name = "name")
     private String name;
@@ -42,6 +42,7 @@ public class Pet extends BaseEntity{
     private Owner owner;
 
     @Column(name = "birth_date")
+   // @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate birthDate;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "pet")
