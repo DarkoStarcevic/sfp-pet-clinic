@@ -116,11 +116,15 @@
 
     <build>
         <plugins>
+
+
             <plugin>
+
                 <groupId>ro.isdc.wro4j</groupId>
                 <artifactId>wro4j-maven-plugin</artifactId>
                 <version>${wro4j.version}</version>
                 <executions>
+
                     <execution>
                         <phase>generate-resources</phase>
                         <goals>
@@ -148,6 +152,21 @@
                     </dependency>
                 </dependencies>
             </plugin>
+
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>build-info</goal>
+                        </goals>
+                    </execution>
+                </executions>
+
+            </plugin>
+
+
         </plugins>
     </build>
 
