@@ -1,0 +1,156 @@
+2021-08-13 10:10:10.937  INFO 15352 --- [main] d.s.s.SfpPetClinicApplication            : Starting SfpPetClinicApplication using Java 11.0.7 on Vlada with PID 15352 (C:\Users\Darko\IdeaProjects\sfp-pet-clinic\pet-clinic-web\target\classes started by Darko in C:\Users\Darko\IdeaProjects\sfp-pet-clinic)
+2021-08-13 10:10:10.953  INFO 15352 --- [main] d.s.s.SfpPetClinicApplication            : The following profiles are active: springdatajpa
+2021-08-13 10:10:11.786  INFO 15352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-13 10:10:11.840  INFO 15352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 6 JPA repository interfaces.
+2021-08-13 10:10:12.232  INFO 15352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2021-08-13 10:10:12.247  INFO 15352 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-13 10:10:12.247  INFO 15352 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-08-13 10:10:12.341  INFO 15352 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-13 10:10:12.341  INFO 15352 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1335 ms
+2021-08-13 10:10:12.410  INFO 15352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-13 10:10:12.510  INFO 15352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-13 10:10:12.510  INFO 15352 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-08-13 10:10:12.557  INFO 15352 --- [main] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2021-08-13 10:10:12.657  INFO 15352 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-13 10:10:12.688  INFO 15352 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-08-13 10:10:12.826  INFO 15352 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-13 10:10:12.911  INFO 15352 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-13 10:10:13.390  INFO 15352 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-13 10:10:13.390  INFO 15352 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-13 10:10:13.706  WARN 15352 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-13 10:10:13.775  INFO 15352 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-13 10:10:13.829  INFO 15352 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-13 10:10:13.976  INFO 15352 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-08-13 10:10:14.029  INFO 15352 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-08-13 10:10:14.060  INFO 15352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2021-08-13 10:10:14.076  INFO 15352 --- [main] d.s.s.SfpPetClinicApplication            : Started SfpPetClinicApplication in 3.508 seconds (JVM running for 4.376)
+2021-08-13 10:10:14.361  INFO 15352 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 61bf62711ce7
+2021-08-13 10:10:14.377  INFO 15352 --- [http-nio-8181-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-13 10:10:14.377  INFO 15352 --- [http-nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-13 10:10:14.377  INFO 15352 --- [http-nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-08-13 10:13:10.241  INFO 15352 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-08-13 10:13:10.241  INFO 15352 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-13 10:13:10.241  INFO 15352 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-13 10:13:10.241  INFO 15352 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-13 10:13:10.262  INFO 15352 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-13 10:13:10.262  INFO 15352 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+"[2m2021-08-13 10:13:13.488[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.s.SfpPetClinicApplication           [0;39m [2m:[0;39m Starting SfpPetClinicApplication using Java 11.0.7 on Vlada with PID 2848 (C:\Users\Darko\IdeaProjects\sfp-pet-clinic\pet-clinic-web\target\classes started by Darko in C:\Users\Darko\IdeaProjects\sfp-pet-clinic)
+""[2m2021-08-13 10:13:13.488[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.s.SfpPetClinicApplication           [0;39m [2m:[0;39m The following profiles are active: springdatajpa
+""[2m2021-08-13 10:13:14.227[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""[2m2021-08-13 10:13:14.305[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 59 ms. Found 6 JPA repository interfaces.
+""[2m2021-08-13 10:13:14.659[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8181 (http)
+""[2m2021-08-13 10:13:14.659[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+""[2m2021-08-13 10:13:14.659[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.43]
+""[2m2021-08-13 10:13:14.760[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+""[2m2021-08-13 10:13:14.760[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1218 ms
+""[2m2021-08-13 10:13:14.852[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+""[2m2021-08-13 10:13:14.929[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+""[2m2021-08-13 10:13:14.929[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.a.h2.H2ConsoleAutoConfiguration   [0;39m [2m:[0;39m H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+""[2m2021-08-13 10:13:14.975[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.a.e.web.ServletEndpointRegistrar  [0;39m [2m:[0;39m Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+""[2m2021-08-13 10:13:15.060[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+""[2m2021-08-13 10:13:15.091[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.28.Final
+""[2m2021-08-13 10:13:15.176[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""[2m2021-08-13 10:13:15.276[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""[2m2021-08-13 10:13:15.819[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""[2m2021-08-13 10:13:15.819[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+""[2m2021-08-13 10:13:16.108[0;39m [33m WARN[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""[2m2021-08-13 10:13:16.179[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+""[2m2021-08-13 10:13:16.231[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+""[2m2021-08-13 10:13:16.416[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.c.ThreadPoolTaskScheduler         [0;39m [2m:[0;39m Initializing ExecutorService
+""[2m2021-08-13 10:13:16.478[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m [2m:[0;39m Exposing 16 endpoint(s) beneath base path '/actuator'
+""[2m2021-08-13 10:13:16.516[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8181 (http) with context path ''
+""[2m2021-08-13 10:13:16.532[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.s.SfpPetClinicApplication           [0;39m [2m:[0;39m Started SfpPetClinicApplication in 3.413 seconds (JVM running for 4.259)
+""[2m2021-08-13 10:13:16.817[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[gistrationTask1][0;39m [36md.c.b.a.c.r.ApplicationRegistrator      [0;39m [2m:[0;39m Application registered itself as 61bf62711ce7
+""[2m2021-08-13 10:13:16.848[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[nio-8181-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+""[2m2021-08-13 10:13:16.848[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[nio-8181-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+""[2m2021-08-13 10:13:16.848[0;39m [32m INFO[0;39m [35m2848[0;39m [2m---[0;39m [2m[nio-8181-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+"2021-08-13 10:13:45.683  INFO 13992 --- [main] d.s.s.SfpPetClinicApplication            : Starting SfpPetClinicApplication using Java 11.0.7 on Vlada with PID 13992 (C:\Users\Darko\IdeaProjects\sfp-pet-clinic\pet-clinic-web\target\classes started by Darko in C:\Users\Darko\IdeaProjects\sfp-pet-clinic)
+2021-08-13 10:13:45.683  INFO 13992 --- [main] d.s.s.SfpPetClinicApplication            : The following profiles are active: springdatajpa
+2021-08-13 10:13:46.385  INFO 13992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-13 10:13:46.447  INFO 13992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 6 JPA repository interfaces.
+2021-08-13 10:13:46.801  INFO 13992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2021-08-13 10:13:46.801  INFO 13992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-13 10:13:46.801  INFO 13992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-08-13 10:13:46.901  INFO 13992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-13 10:13:46.901  INFO 13992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1170 ms
+2021-08-13 10:13:46.986  INFO 13992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-13 10:13:47.050  INFO 13992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-13 10:13:47.050  INFO 13992 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-08-13 10:13:47.086  INFO 13992 --- [main] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2021-08-13 10:13:47.170  INFO 13992 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-13 10:13:47.202  INFO 13992 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-08-13 10:13:47.286  INFO 13992 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-13 10:13:47.371  INFO 13992 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-13 10:13:47.819  INFO 13992 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-13 10:13:47.835  INFO 13992 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-13 10:13:48.104  WARN 13992 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-13 10:13:48.173  INFO 13992 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-13 10:13:48.220  INFO 13992 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-13 10:13:48.436  INFO 13992 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-08-13 10:13:48.490  INFO 13992 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-08-13 10:13:48.537  INFO 13992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2021-08-13 10:13:48.537  INFO 13992 --- [main] d.s.s.SfpPetClinicApplication            : Started SfpPetClinicApplication in 3.216 seconds (JVM running for 4.17)
+2021-08-13 10:13:48.822  INFO 13992 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 61bf62711ce7
+2021-08-13 10:13:48.837  INFO 13992 --- [http-nio-8181-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-13 10:13:48.837  INFO 13992 --- [http-nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-13 10:13:48.837  INFO 13992 --- [http-nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+"[2m2021-08-13 10:14:11.283[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.s.SfpPetClinicApplication           [0;39m [2m:[0;39m Starting SfpPetClinicApplication using Java 11.0.7 on Vlada with PID 14744 (C:\Users\Darko\IdeaProjects\sfp-pet-clinic\pet-clinic-web\target\classes started by Darko in C:\Users\Darko\IdeaProjects\sfp-pet-clinic)
+""[2m2021-08-13 10:14:11.283[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.s.SfpPetClinicApplication           [0;39m [2m:[0;39m The following profiles are active: springdatajpa
+""[2m2021-08-13 10:14:12.038[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""[2m2021-08-13 10:14:12.101[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 55 ms. Found 6 JPA repository interfaces.
+""[2m2021-08-13 10:14:12.586[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8181 (http)
+""[2m2021-08-13 10:14:12.601[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+""[2m2021-08-13 10:14:12.601[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.43]
+""[2m2021-08-13 10:14:12.704[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+""[2m2021-08-13 10:14:12.704[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1367 ms
+""[2m2021-08-13 10:14:12.786[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+""[2m2021-08-13 10:14:12.871[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+""[2m2021-08-13 10:14:12.871[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.a.h2.H2ConsoleAutoConfiguration   [0;39m [2m:[0;39m H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+""[2m2021-08-13 10:14:12.958[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.a.e.web.ServletEndpointRegistrar  [0;39m [2m:[0;39m Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+""[2m2021-08-13 10:14:13.069[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+""[2m2021-08-13 10:14:13.120[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.28.Final
+""[2m2021-08-13 10:14:13.200[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""[2m2021-08-13 10:14:13.288[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""[2m2021-08-13 10:14:13.756[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""[2m2021-08-13 10:14:13.772[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+""[2m2021-08-13 10:14:14.041[0;39m [33m WARN[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""[2m2021-08-13 10:14:14.104[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+""[2m2021-08-13 10:14:14.157[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+""[2m2021-08-13 10:14:14.342[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.c.ThreadPoolTaskScheduler         [0;39m [2m:[0;39m Initializing ExecutorService
+""[2m2021-08-13 10:14:14.390[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m [2m:[0;39m Exposing 16 endpoint(s) beneath base path '/actuator'
+""[2m2021-08-13 10:14:14.427[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8181 (http) with context path ''
+""[2m2021-08-13 10:14:14.442[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.s.SfpPetClinicApplication           [0;39m [2m:[0;39m Started SfpPetClinicApplication in 3.508 seconds (JVM running for 4.33)
+""[2m2021-08-13 10:14:14.816[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[gistrationTask1][0;39m [36md.c.b.a.c.r.ApplicationRegistrator      [0;39m [2m:[0;39m Application registered itself as 61bf62711ce7
+""[2m2021-08-13 10:14:14.843[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[nio-8181-exec-3][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+""[2m2021-08-13 10:14:14.843[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[nio-8181-exec-3][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+""[2m2021-08-13 10:14:14.843[0;39m [32m INFO[0;39m [35m14744[0;39m [2m---[0;39m [2m[nio-8181-exec-3][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+"2021-08-13 10:15:01.372  INFO 11876 --- [main] d.s.s.SfpPetClinicApplication            : Starting SfpPetClinicApplication using Java 11.0.7 on Vlada with PID 11876 (C:\Users\Darko\IdeaProjects\sfp-pet-clinic\pet-clinic-web\target\classes started by Darko in C:\Users\Darko\IdeaProjects\sfp-pet-clinic)
+2021-08-13 10:15:01.372  INFO 11876 --- [main] d.s.s.SfpPetClinicApplication            : The following profiles are active: springdatajpa
+2021-08-13 10:15:02.152  INFO 11876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-13 10:15:02.206  INFO 11876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 6 JPA repository interfaces.
+2021-08-13 10:15:02.554  INFO 11876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2021-08-13 10:15:02.560  INFO 11876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-13 10:15:02.560  INFO 11876 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-08-13 10:15:02.655  INFO 11876 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-13 10:15:02.655  INFO 11876 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1236 ms
+2021-08-13 10:15:02.738  INFO 11876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-13 10:15:02.808  INFO 11876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-13 10:15:02.808  INFO 11876 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-08-13 10:15:02.839  INFO 11876 --- [main] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2021-08-13 10:15:02.925  INFO 11876 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-13 10:15:02.961  INFO 11876 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-08-13 10:15:03.039  INFO 11876 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-13 10:15:03.124  INFO 11876 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-13 10:15:03.579  INFO 11876 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-13 10:15:03.579  INFO 11876 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-13 10:15:03.842  WARN 11876 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-13 10:15:03.911  INFO 11876 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-13 10:15:03.964  INFO 11876 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-13 10:15:04.143  INFO 11876 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-08-13 10:15:04.196  INFO 11876 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-08-13 10:15:04.227  INFO 11876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2021-08-13 10:15:04.243  INFO 11876 --- [main] d.s.s.SfpPetClinicApplication            : Started SfpPetClinicApplication in 3.201 seconds (JVM running for 4.0)
+2021-08-13 10:15:04.513  INFO 11876 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 61bf62711ce7
+2021-08-13 10:15:04.544  INFO 11876 --- [http-nio-8181-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-13 10:15:04.544  INFO 11876 --- [http-nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-13 10:15:04.544  INFO 11876 --- [http-nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
