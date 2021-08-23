@@ -105,25 +105,21 @@
     </dependency>
 </dependencies>
 
-    <!--<dependencyManagement>
+    <dependencyManagement>
         <dependencies>
-            dependency>
-            <groupId>de.codecentric</groupId>
-            <artifactId>spring-boot-admin-dependencies</artifactId>
-            <version>${spring-boot-admin.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
-        </dependency>
-
-    </dependencies>
-    </dependencyManagement>-->
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-dependencies</artifactId>
+                <version>${spring-boot-admin.version}</version>
+                <type>pom</type>
+                <scope>impoprt</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>
-
-
             <plugin>
-
                 <groupId>ro.isdc.wro4j</groupId>
                 <artifactId>wro4j-maven-plugin</artifactId>
                 <version>${wro4j.version}</version>
